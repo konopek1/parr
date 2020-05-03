@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title></title>
+  <title>PARR</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -11,18 +11,255 @@
   <link rel="apple-touch-icon" href="icon.png">
   <!-- Place favicon.ico in the root directory -->
 
-  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton/normalize.css">
+  <link rel="stylesheet" href="css/skeleton/skeleton.css">
   <link rel="stylesheet" href="css/main.css">
-
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
-  <!--[if IE]>
-    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-  <![endif]-->
+<!--[if IE]>
+<p class="button">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade
+  your browser</a> to improve your experience and security.</p>
+<![endif]-->
+
+<div class="navbar u-full-width" data-aos="flip-down">
+  <div class="container">
+    <div class="row">
+      <div class="columns three">
+        <div class="navbar-logo"><img class="navbar--logo--img" src="img/logo_on_white.PNG" alt="PARR"></div>
+      </div>
+      <div class="columns nine">
+        <div class="navbar--item"><button  class="navbar--item--button button u-pull-left" onclick="scrollToSection('show-case')">O nas</button></div>
+        <div class="navbar--item"><button  class="navbar--item--button button u-pull-left" onclick="scrollToSection('konsulting')">Konsulting</button></div>
+        <div class="navbar--item"><button  class="navbar--item--button button u-pull-left" onclick="scrollToSection('bezpieczenstwo')">Bezpieczenstwo</button></div>
+        <div class="navbar--item"><button  class="navbar--item--button button u-pull-left" onclick="scrollToSection('doradztwo')">Doradztwo</button></div>
+        <div class="navbar--item"><button  class="navbar--item--button button u-pull-left" onclick="scrollToSection('kontakt')">Kontakt</button></div>
+        <div class="u-cf"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="section show-case" data-aos="fade-right">
+  <div class="container">
+    <br>
+    <div class="row">
+      <div class="column one-third">
+        <h2>O nas</h2>
+      </div>
+      <div class="column two-thirds"></div>
+    </div>
+    <br>
+    <div class="row">
+      <div class="column twelve">
+        <div class="show-case--text"><h5>Jesteśmy firmą konsultingową, specjalizującą się w dostarczaniu najnowszych
+          rozwiązań technologicznych oraz wysoce specjalistycznych usług dla sektora transportu, sektora
+          nieruchomości,sektora środowiska i zasobów naturalnych, oraz infrastruktury krytycznej. Nasza praktyczna
+          wiedza i umiejętności przyczyniły się do sukcesów naszych Klientów zarówno
+          prywatnych jak i publicznych, w tym słutb mundurowych. Nasi eksperci to Zespół najlepszych talentów w sektorze
+          budowlanych usług profesjonalnych. Dzięki świetnej orientacji w rynku, gwarantujemy usługi na najwytszym
+          poziomie realizowane przez
+          najlepsze talenty.
+        </h5></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="section info" data-aos="fade-left">
+  <div class="container">
+    <div class="row">
+      <div class="one-third column card">
+        <ul class="fa-ul">
+          <li><span class="fa-li"><i class="fas fa-greater-than"></i></span><span>Jesteśmy ekspertami i współpracujemy z
+        wybranymi i spraw-dzonymi specjalistami brandowymi.</span></li>
+        </ul>
+      </div>
+      <div class="one-third column card ">
+        <ul class="fa-ul">
+          <li><span class="fa-li"><i class="fas fa-greater-than"></i></span><span>Nasz zespół to eksperci z wieloletnim
+        doświad-czeniem zawodowym.</span></li>
+        </ul>
+      </div>
+      <div class="one-third column card">
+        <ul class="fa-ul">
+          <li><span class="fa-li"><i class="fas fa-greater-than"></i></span><span>Jesteśmy rzetelni a powierzone nam zadania
+        realizujemy z pasją i ku satysfakcji klienta.</span></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
 
 
-  <script src="js/main.js"></script>
+<div data-aos="zoom-in-up">
+  <div class="container align-center"><h1 id="uslugi">Usługi</h1></div>
+</div>
+
+<div class="section konsulting" data-aos="flip-down">
+  <div class="container">
+    <div class="row"><h1>Konsulting</h1></div>
+    <br>
+    <div class="row">
+      <div class="column one-third konsulting--img"></div>
+      <div class="column one-third">
+        <ul class="fa-ul">
+          <li><span class="fa-li"><i class="fas fa-greater-than"></i></span><span> Drogowa</span></li>
+          <li><span class="fa-li"><i class="fas fa-greater-than"></i></span><span> Infrastruktura Kolejowa</span></li>
+          <li><span class="fa-li"><i class="fas fa-greater-than"></i></span><span> Architektura</span></li>
+          <li><span class="fa-li"><i class="fas fa-greater-than"></i></span><span> Środowisko</span></li>
+        </ul>
+      </div>
+      <div class="column one-third">
+        <ul class="fa-ul">
+          <li><span class="fa-li"><i class="fas fa-greater-than"></i></span><span> Doradztwo</span></li>
+          <li><span class="fa-li"><i class="fas fa-greater-than"></i></span><span> Nadzory</span></li>
+          <li><span class="fa-li"><i class="fas fa-greater-than"></i></span><span> Szkolenia</span></li>
+          <li><span class="fa-li"><i class="fas fa-greater-than"></i></span><span> Informacje niejawne</span></li>
+        </ul>
+      </div>
+      <br>
+      <div class="row">
+        <button onclick="extendConsulting()" id="extend--button">Szczegóły</button>
+      </div>
+    </div>
+    <div class="row hide" id="consultingExtendContainer">Dokumentacje przetargowe (SIWZ, PFU, OPZ, inne)
+      Dokumenty, raporty, wnioski i postępowania administracyjne w zakresie ochrony środowiska (Karta
+      Informacyjna Projektu /KIP/ Raport Ocen Oddziaływania na Środowisko /ROOŚ/ Przeglądy Środowisko-
+      we /Due Dilligence/),
+      Modelowanie (analizy i prognozy ruchu, budynki i obiekty, hydrauliczne i hydrologiczne),
+      Dokumentację projektowe (projekt budowlany, projekty wykonawcze, dokumentacja powykonawcza),
+      Nadzór (inwestorski i autorski) oraz zarządzanie projektami
+      Analizy finansowe i ekonomiczne (w tym CBA)
+    </div>
+  </div>
+</div>
+
+<div class="section bezpieczenstwo">
+  <div class="container">
+    <div class="row align-center">
+      <h1 id="bezpieczenstwo--title">Bezpieczeństwo biznesu</h1>
+    </div>
+    <div class="row align-left bezpieczenstwo--item--safe bezpieczenstwo--item card-5" data-aos="fade-left">
+      <span> Bezpieczeństwo prowadzenia biznesu przez naszych Klientów (cyberbezpieczeństwo),</span>
+    </div>
+    <div class="row align-left u-pull-right bezpieczenstwo--item--info bezpieczenstwo--item card-5" data-aos="fade-right">
+      <span>Systemy zabezpieczeń wspierające naszych Klientów w zarządzaniu danymi, informacjami oraz dostępem do tychże informacji i danych</span>
+    </div>
+    <div class="row align-left u-pull-left bezpieczenstwo--item--niejawne bezpieczenstwo--item card-5" data-aos="fade-left">
+      <span>Ochrona informacji niejawnych</span>
+    </div>
+  </div>
+</div>
+
+<div class="section doradztwo" data-aos="flip-down">
+  <div class="container">
+    <div class="row">
+      <h1>Doradztwo</h1>
+    </div>
+    <div class="row">
+      <div class="columns three"><img class=" doradztwo--img" src="img/security.webp"></div>
+      <div class="columns nine doradztwo--text">Oferujemy przygotowanie koncepcji zabezpieczenia Państwa biznesu w oparciu o
+        najnowsze rozwiązania teleinformatyczne oraz techniczne systemy ochrony. Pokażemy jak chronić informację przed
+        dostępem osób niepowołanych. Optymalizujemy koszty inwestycji przy zachowaniu zakładanych parame-trów
+        bezpieczeństwa. Ofertę kierujemy do instytucji Państwowych, obiektów infrastruktury krytycznej oraz Klientów
+        prywatnych.
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="section opracowania">
+  <div class="container">
+    <div class="row opracowania--title">
+      <h1>Opracowanie z zakresu</h1>
+    </div>
+    <div class="row">
+      <div class="column one-half card-5" data-aos="fade-left">
+        <ul class="fa-ul">
+          <li><span class="fa-li"><i class="fas fa-asterisk"></i></span><span> Systemów sygnalizacji pożaru</span></li>
+          <li><span class="fa-li"><i class="fas fa-asterisk"></i></span><span> Dźwiękowych systemów ostrzegawczych</span></li>
+          <li><span class="fa-li"><i class="fas fa-asterisk"></i></span><span> Systemów kontroli dostępu</span></li>
+          <li><span class="fa-li"><i class="fas fa-asterisk"></i></span><span> Telewizyjnych systemów nadzoru</span></li>
+        </ul>
+      </div>
+      <div class="column one-half card-5" data-aos="fade-right">
+        <ul class="fa-ul">
+          <li><span class="fa-li"><i class="fas fa-asterisk"></i></span><span> Systemów komunikacji głosowej</span></li>
+          <li><span class="fa-li"><i class="fas fa-asterisk"></i></span><span> Systemów sygnalizacji włamania i napadu</span></li>
+          <li><span class="fa-li"><i class="fas fa-asterisk"></i></span><span> infrastruktury teleinformatycznej</span></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="section opracowania">
+  <div class="container">
+    <div class="row opracowania--title">
+      <h1>Doradztwo i pomoc w:</h1>
+    </div>
+    <div class="row">
+      <div class="column one-half card-5" data-aos="fade-left">
+        <ul class="fa-ul">
+          <li><span class="fa-li"><i class="fas fa-asterisk"></i></span><span>Uzyskaniu Świadectwa Bezpieczeństwa Przemysłowego </span></li>
+          <li><span class="fa-li"><i class="fas fa-asterisk"></i></span><span>Tworzeniu miejsc do przetwarzania informacji niejawnych - Kancelaria Tajna, Punkt Ewidencyjny</span></li>
+        </ul>
+      </div>
+      <div class="column one-half card-5" data-aos="fade-right">
+        <ul class="fa-ul">
+          <li><span class="fa-li"><i class="fas fa-asterisk"></i></span><span>Uzyskaniu Osobowego Poświadczenia Bezpieczeństwa</span></li>
+          <li><span class="fa-li"><i class="fas fa-asterisk"></i></span><span>Organizacji systemu teleinformatycznego służącego do przetwarzania informacji niejawnych o różnych klauzulach.</span></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="section kontakt" data-aos="flip-up">
+  <div class="container">
+    <div class="row">
+      <div class="column one-third"><h5>KONSULTING</h5></div>
+      <div class="column one-third"><h5>BEZPIECZEŃSTWO BIZNESU</h5></div>
+      <div class="column one-third"><h5>ZARZĄD</h5></div>
+    </div>
+    <div class="row">
+      <div class="column one-third">
+        Rafał Poborski<br>
+        PARR Sp. z o. o.<br>
+        ul. Elbląska 67 / 201<br>
+        01-737 Warszawa, Polska<br>
+        M:+48 606 690 370<br>
+        E: rafalpiotr.poborski@gmail.com<br>
+        E: pocztaparr@gmail.com
+      </div>
+      <div class="column one-third">
+        Robert Więch<br>
+        PARR Sp. z o. o.<br>
+        ul. Elbląska 67 / 201<br>
+        01-737 Warszawa, Polska<br>
+        M: +48 691 298 650<br>
+        E: robertandrzej.wiech@gmail.com<br>
+        E: pocztaparr@gmail.com
+      </div>
+      <div class="column one-third">
+        Paweł Cieśla<br>
+        PARR Sp. z o. o.<br>
+        ul. Elbląska 67 / 201<br>
+        01-737 Warszawa, Polska<br>
+        M:+48 506 184 058<br>
+        E: cieslapawel68@gmail.com<br>
+        E: pocztaparr@gmail.com
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<script src="js/main.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://kit.fontawesome.com/a2270f6364.js" crossorigin="anonymous"></script>
 </body>
 
 </html>

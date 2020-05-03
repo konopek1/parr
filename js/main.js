@@ -8,6 +8,10 @@ window.onload = () => {
   });
 }
 
+function goToTopOfPage() {
+  window.scrollTo(0,0);
+}
+
 function extendConsulting() {
   const consultingExtendContainer =  document.querySelector("#consultingExtendContainer");
   consultingExtendContainer.classList.toggle("hide");

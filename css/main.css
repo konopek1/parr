@@ -1,7 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,400;0,500;1,200&display=swap');
 
+/* define colors */
+
+
 :root {
   --main-txt-color: #16db34;
+  --second-color: rgba(57, 151, 253,0.8);
+}
+
+.secondary-color {
+  color: var(--second-color);
+}
+
+.small-margin-left {
+  margin-left: 5rem;
 }
 
 .hide {
@@ -11,12 +23,12 @@
 .button {
   font-weight: 400;
   color: black;
-  border-color: #222222;
+  border-color: #0F3373;
   transition: border-bottom 0.1s 0s linear;
 }
 
 .button:hover {
-  border-bottom: #555555 solid 7px;
+  border-bottom: rgba(57, 151, 233,0.8) solid 5px;
 }
 
 .align-center {
@@ -33,6 +45,10 @@
 
 .wider-container {
   padding-left: 100px;
+}
+
+.fa-caret-right {
+  color: var(--second-color);
 }
 
 .card-5 {
@@ -91,14 +107,6 @@ body {
 
 .navbar--item--button {
   margin-left: 0.5rem;
-}
-
-.main-color {
-
-}
-
-.secondary-color {
-
 }
 
 .show-case {
@@ -173,6 +181,10 @@ body {
   top: -55px;
 }
 
+#consultingExtendContainer {
+  font-size: 15px;
+}
+
 .bezpieczenstwo--item--safe::before {
   content: "\f0c7";
 }
@@ -191,7 +203,8 @@ body {
 
 .doradztwo--img {
   border-radius: 5px;
-  height: 18rem;
+  height: 17rem;
+  width:22rem;
 }
 
 .doradztwo--text {
@@ -218,6 +231,12 @@ body {
 
 .kontakt {
   background-image: url("../img/section_backgroud.jpg");
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+a {
+  text-decoration:none;
 }
 
 /*animations*/
